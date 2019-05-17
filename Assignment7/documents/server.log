@@ -1,0 +1,337 @@
+May 01, 2018 12:09:22 PM edu.stevens.cs522.chat.webservice.Main info
+INFO: Starting HTTP server...
+May 01, 2018 12:09:22 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [DESKTOP-CTNEM40.fios-router.home:8080]
+May 01, 2018 12:09:22 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer] Started.
+May 01, 2018 12:09:22 PM edu.stevens.cs522.chat.webservice.Main info
+INFO: Listening at http://DESKTOP-CTNEM40.fios-router.home:8080
+May 01, 2018 12:09:22 PM edu.stevens.cs522.chat.webservice.Main info
+INFO: Service available at http://DESKTOP-CTNEM40.fios-router.home:8080/chat
+Hit enter to stop...
+May 01, 2018 12:15:13 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received postMessage request (id = 0)
+May 01, 2018 12:15:13 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+SEVERE: Exception while receiving message from client.
+java.lang.IllegalArgumentException: No such client: 0
+	at edu.stevens.cs522.chat.webservice.ChatActivity.getClient(ChatActivity.java:37)
+	at edu.stevens.cs522.chat.webservice.ChatResource.postMessage(ChatResource.java:277)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:76)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:148)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:191)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:200)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:103)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:493)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:415)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:104)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:277)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:268)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)
+	at org.glassfish.jersey.grizzly2.httpserver.GrizzlyHttpContainer.service(GrizzlyHttpContainer.java:377)
+	at org.glassfish.grizzly.http.server.HttpHandler$1.run(HttpHandler.java:224)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:593)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:573)
+	at java.lang.Thread.run(Unknown Source)
+
+May 01, 2018 12:15:49 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received postMessage request (id = 0)
+May 01, 2018 12:15:49 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+SEVERE: Exception while receiving message from client.
+java.lang.IllegalArgumentException: No such client: 0
+	at edu.stevens.cs522.chat.webservice.ChatActivity.getClient(ChatActivity.java:37)
+	at edu.stevens.cs522.chat.webservice.ChatResource.postMessage(ChatResource.java:277)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:76)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:148)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:191)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:200)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:103)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:493)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:415)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:104)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:277)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:268)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)
+	at org.glassfish.jersey.grizzly2.httpserver.GrizzlyHttpContainer.service(GrizzlyHttpContainer.java:377)
+	at org.glassfish.grizzly.http.server.HttpHandler$1.run(HttpHandler.java:224)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:593)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:573)
+	at java.lang.Thread.run(Unknown Source)
+
+May 01, 2018 12:17:46 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received postMessage request (id = 0)
+May 01, 2018 12:17:46 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+SEVERE: Exception while receiving message from client.
+java.lang.IllegalArgumentException: No such client: 0
+	at edu.stevens.cs522.chat.webservice.ChatActivity.getClient(ChatActivity.java:37)
+	at edu.stevens.cs522.chat.webservice.ChatResource.postMessage(ChatResource.java:277)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:76)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:148)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:191)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:200)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:103)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:493)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:415)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:104)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:277)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:268)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)
+	at org.glassfish.jersey.grizzly2.httpserver.GrizzlyHttpContainer.service(GrizzlyHttpContainer.java:377)
+	at org.glassfish.grizzly.http.server.HttpHandler$1.run(HttpHandler.java:224)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:593)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:573)
+	at java.lang.Thread.run(Unknown Source)
+
+May 01, 2018 12:21:02 PM edu.stevens.cs522.chat.webservice.ChatResource register
+INFO: Received registration request (client=ddd6235c-5f9b-44ff-8ea8-89df1c35a49f, username=Jhdjhd, timestamp=1525191636139, latitude=0.0, longitude=0.0)
+May 01, 2018 12:21:02 PM edu.stevens.cs522.chat.webservice.ChatResource register
+INFO: Successfully registered user Jhdjhd with UUID ddd6235c-5f9b-44ff-8ea8-89df1c35a49f.
+May 01, 2018 12:27:11 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received postMessage request (id = 0)
+May 01, 2018 12:27:11 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+SEVERE: Exception while receiving message from client.
+java.lang.IllegalArgumentException: No such client: 0
+	at edu.stevens.cs522.chat.webservice.ChatActivity.getClient(ChatActivity.java:37)
+	at edu.stevens.cs522.chat.webservice.ChatResource.postMessage(ChatResource.java:277)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:76)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:148)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:191)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:200)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:103)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:493)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:415)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:104)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:277)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:268)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)
+	at org.glassfish.jersey.grizzly2.httpserver.GrizzlyHttpContainer.service(GrizzlyHttpContainer.java:377)
+	at org.glassfish.grizzly.http.server.HttpHandler$1.run(HttpHandler.java:224)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:593)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:573)
+	at java.lang.Thread.run(Unknown Source)
+
+May 01, 2018 12:30:27 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received postMessage request (id = 1)
+May 01, 2018 12:30:27 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received message 23412351 (chatroom 1)
+May 01, 2018 12:35:44 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received postMessage request (id = 1)
+May 01, 2018 12:35:44 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+SEVERE: Exception while receiving message from client.
+java.io.IOException: Expected field name: chatroom
+	at edu.stevens.cs522.chat.rest.requests.JsonStreamReader.nextName(JsonStreamReader.java:91)
+	at edu.stevens.cs522.chat.webservice.ChatResource.postMessage(ChatResource.java:295)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:76)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:148)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:191)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:200)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:103)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:493)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:415)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:104)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:277)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:268)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)
+	at org.glassfish.jersey.grizzly2.httpserver.GrizzlyHttpContainer.service(GrizzlyHttpContainer.java:377)
+	at org.glassfish.grizzly.http.server.HttpHandler$1.run(HttpHandler.java:224)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:593)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:573)
+	at java.lang.Thread.run(Unknown Source)
+
+May 01, 2018 12:35:58 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received postMessage request (id = 1)
+May 01, 2018 12:35:58 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received message 123123123 (chatroom 1)
+May 01, 2018 12:36:14 PM edu.stevens.cs522.chat.webservice.ChatResource messages
+INFO: DEBUG: Received getMessages  request
+May 01, 2018 12:36:14 PM edu.stevens.cs522.chat.webservice.ChatResource$2 write
+INFO: DEBUG: Listed all messages)
+May 01, 2018 12:36:52 PM edu.stevens.cs522.chat.webservice.ChatResource messages
+INFO: DEBUG: Received getMessages  request
+May 01, 2018 12:36:52 PM edu.stevens.cs522.chat.webservice.ChatResource$2 write
+INFO: DEBUG: Listed all messages)
+May 01, 2018 12:37:07 PM edu.stevens.cs522.chat.webservice.ChatResource messages
+INFO: DEBUG: Received getMessages  request
+May 01, 2018 12:37:07 PM edu.stevens.cs522.chat.webservice.ChatResource$2 write
+INFO: DEBUG: Listed all messages)
+May 01, 2018 12:42:21 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received postMessage request (id = 1)
+May 01, 2018 12:42:21 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received message 132512341234 (chatroom 1)
+May 01, 2018 12:48:43 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received postMessage request (id = 1)
+May 01, 2018 12:48:43 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received message 123412351234 (chatroom 1)
+May 01, 2018 1:08:48 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received postMessage request (id = 1)
+May 01, 2018 1:08:48 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received message 13241235 (chatroom 1)
+May 01, 2018 1:10:08 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received postMessage request (id = 1)
+May 01, 2018 1:10:08 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received message 1324123512514123 (chatroom 1)
+May 01, 2018 1:20:52 PM edu.stevens.cs522.chat.webservice.ChatResource messages
+INFO: DEBUG: Received getMessages  request
+May 01, 2018 1:20:52 PM edu.stevens.cs522.chat.webservice.ChatResource$2 write
+INFO: DEBUG: Listed all messages)
+May 01, 2018 1:48:56 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received postMessage request (id = 1)
+May 01, 2018 1:48:56 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received message 123412351234 (chatroom 1)
+May 01, 2018 1:54:42 PM edu.stevens.cs522.chat.webservice.ChatResource register
+INFO: Received registration request (client=facbf8cb-3af1-4b54-96d9-7d4a9a27a202, username=helo, timestamp=1525197247536, latitude=0.0, longitude=0.0)
+May 01, 2018 1:54:42 PM edu.stevens.cs522.chat.webservice.ChatResource register
+INFO: Successfully registered user helo with UUID facbf8cb-3af1-4b54-96d9-7d4a9a27a202.
+May 01, 2018 1:58:25 PM edu.stevens.cs522.chat.webservice.ChatResource messages
+INFO: DEBUG: Received getMessages  request
+May 01, 2018 1:58:25 PM edu.stevens.cs522.chat.webservice.ChatResource$2 write
+INFO: DEBUG: Listed all messages)
+May 01, 2018 2:01:26 PM edu.stevens.cs522.chat.webservice.ChatResource register
+INFO: Received registration request (client=9b38b890-add9-4003-89fe-c5d962372237, username=heelo, timestamp=1525197665902, latitude=0.0, longitude=0.0)
+May 01, 2018 2:01:26 PM edu.stevens.cs522.chat.webservice.ChatResource register
+INFO: Successfully registered user heelo with UUID 9b38b890-add9-4003-89fe-c5d962372237.
+May 01, 2018 2:01:57 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received postMessage request (id = 3)
+May 01, 2018 2:01:57 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received message 1341234 (chatroom 2)
+May 01, 2018 2:02:18 PM edu.stevens.cs522.chat.webservice.ChatResource messages
+INFO: DEBUG: Received getMessages  request
+May 01, 2018 2:02:18 PM edu.stevens.cs522.chat.webservice.ChatResource$2 write
+INFO: DEBUG: Listed all messages)
+May 01, 2018 2:15:03 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received postMessage request (id = 3)
+May 01, 2018 2:15:03 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received message 12341234 (chatroom 2)
+May 01, 2018 2:15:10 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received postMessage request (id = 3)
+May 01, 2018 2:15:10 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received message 123412341234 (chatroom 3)
+May 01, 2018 2:31:01 PM edu.stevens.cs522.chat.webservice.ChatResource register
+INFO: Received registration request (client=0bafc8e4-99cd-4412-ac31-2eef04bfcb75, username=Junhao Du, timestamp=1525199460794, latitude=0.0, longitude=0.0)
+May 01, 2018 2:31:01 PM edu.stevens.cs522.chat.webservice.ChatResource register
+INFO: Successfully registered user Junhao Du with UUID 0bafc8e4-99cd-4412-ac31-2eef04bfcb75.
+May 01, 2018 2:31:04 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received postMessage request (id = 4)
+May 01, 2018 2:31:04 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received message 123412351234 (chatroom 1)
+May 01, 2018 2:31:19 PM edu.stevens.cs522.chat.webservice.ChatResource messages
+INFO: DEBUG: Received getMessages  request
+May 01, 2018 2:31:19 PM edu.stevens.cs522.chat.webservice.ChatResource$2 write
+INFO: DEBUG: Listed all messages)
+May 01, 2018 2:31:48 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received postMessage request (id = 4)
+May 01, 2018 2:31:48 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received message 123412351234 (chatroom 2)
+May 01, 2018 2:31:51 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received postMessage request (id = 4)
+May 01, 2018 2:31:51 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received message 123512342134 (chatroom _default)
+May 01, 2018 2:34:20 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received postMessage request (id = 4)
+May 01, 2018 2:34:20 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received message 123412352134 (chatroom 1)
+May 01, 2018 2:34:27 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received postMessage request (id = 4)
+May 01, 2018 2:34:27 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received message 1234235 (chatroom 2)
+May 01, 2018 2:35:07 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received postMessage request (id = 4)
+May 01, 2018 2:35:07 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received message 321412352 (chatroom 1)
+May 01, 2018 2:41:03 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received postMessage request (id = 4)
+May 01, 2018 2:41:03 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received message 12341234 (chatroom 1)
+May 01, 2018 2:43:09 PM edu.stevens.cs522.chat.webservice.ChatResource register
+INFO: Received registration request (client=65cff733-0312-4d46-bb6a-de8e3ab91ed9, username=Junhao, timestamp=1525200181571, latitude=0.0, longitude=0.0)
+May 01, 2018 2:43:09 PM edu.stevens.cs522.chat.webservice.ChatResource register
+INFO: Successfully registered user Junhao with UUID 65cff733-0312-4d46-bb6a-de8e3ab91ed9.
+May 01, 2018 2:43:51 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received postMessage request (id = 5)
+May 01, 2018 2:43:51 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received message 12341234 (chatroom 1)
+May 01, 2018 2:43:54 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received postMessage request (id = 5)
+May 01, 2018 2:43:54 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received message 53124123451234 (chatroom 1)
+May 01, 2018 2:46:29 PM edu.stevens.cs522.chat.webservice.ChatResource register
+INFO: Received registration request (client=30ce92d6-abf9-4176-9ead-b2a292f7f468, username=Mr.Du, timestamp=1525200381848, latitude=0.0, longitude=0.0)
+May 01, 2018 2:46:29 PM edu.stevens.cs522.chat.webservice.ChatResource register
+INFO: Successfully registered user Mr.Du with UUID 30ce92d6-abf9-4176-9ead-b2a292f7f468.
+May 01, 2018 2:46:37 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received postMessage request (id = 6)
+May 01, 2018 2:46:37 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received message 123412351234 (chatroom 1)
+May 01, 2018 2:46:41 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received postMessage request (id = 6)
+May 01, 2018 2:46:41 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received message 123512351324 (chatroom 1)
+May 01, 2018 2:46:43 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received postMessage request (id = 6)
+May 01, 2018 2:46:43 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received message 513241614512451451 (chatroom 1)
+May 01, 2018 2:48:13 PM edu.stevens.cs522.chat.webservice.ChatResource messages
+INFO: DEBUG: Received getMessages  request
+May 01, 2018 2:48:13 PM edu.stevens.cs522.chat.webservice.ChatResource$2 write
+INFO: DEBUG: Listed all messages)
+May 01, 2018 2:48:15 PM edu.stevens.cs522.chat.webservice.ChatResource messages
+INFO: DEBUG: Received getMessages  request
+May 01, 2018 2:48:15 PM edu.stevens.cs522.chat.webservice.ChatResource$2 write
+INFO: DEBUG: Listed all messages)
+May 01, 2018 2:48:42 PM edu.stevens.cs522.chat.webservice.ChatResource messages
+INFO: DEBUG: Received getMessages  request
+May 01, 2018 2:48:42 PM edu.stevens.cs522.chat.webservice.ChatResource$2 write
+INFO: DEBUG: Listed all messages)
+May 01, 2018 2:53:56 PM edu.stevens.cs522.chat.webservice.ChatResource messages
+INFO: DEBUG: Received getMessages  request
+May 01, 2018 2:53:56 PM edu.stevens.cs522.chat.webservice.ChatResource$2 write
+INFO: DEBUG: Listed all messages)
